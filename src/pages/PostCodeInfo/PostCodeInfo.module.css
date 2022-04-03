@@ -1,0 +1,22 @@
+.postCodeInfo {
+    width: 600px;
+}
+
+.forecastContainer {
+    margin: 30px 0;
+}
+
+.forecastGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomGroup {
+    width: 275px;
+}

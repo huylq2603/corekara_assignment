@@ -1,0 +1,28 @@
+.forecastItem {
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid gray;
+}
+
+.forecastItem div {
+    margin-bottom: 10px;
+}
+
+.date, .temp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather, .weatherIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.weather {
+    font-size: large;
+    font-weight: bold;
+}
+
+.weatherIcon {
+    background-color: #bbbbbb;
+}
