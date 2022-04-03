@@ -44,7 +44,7 @@ class Map extends Component {
             <div>
                 {this.state.mapPosition.lat && this.state.mapPosition.lng &&
                     <AsyncMap
-                        googleMapURL={`${process.env.REACT_APP_GOOGLE_MAP_API}?key=${process.env.REACT_APP_GOOGLE_KEY}`}
+                        googleMapURL={`${process.env.REACT_APP_GOOGLE_MAP_API}?key=${process.env.REACT_APP_GOOGLE_KEY}&region=US&language=en`}
                         loadingElement={
                             <div style={{ height: `100%` }} />
                         }
